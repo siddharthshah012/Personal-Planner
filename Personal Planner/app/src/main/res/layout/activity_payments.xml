@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="examples.csci567.testfinalproject.payments">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="examples.csci567.testfinalproject.payments">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAYMENTS"
+        android:textSize="20dp"
+        android:id="@+id/text_payments"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_payments"
+        android:hint=" Bills "
+        android:id="@+id/edit_bills"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_bills"
+        android:id="@+id/edit_amount"
+        android:hint="Enter Amount"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_amount"
+            android:hint="Enter Payment Date"
+            android:id="@+id/edit_enter_date"
+            android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_enter_date"
+        android:hint="Press Select Reminder Date"
+        android:id="@+id/edit_pay_date"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_pay_date"
+        android:hint="Press Select Reminder Time"
+        android:id="@+id/edit_pay_time"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_pay_time"
+        android:id="@+id/button_pay_date"
+        android:text="Select Reminder Date"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pay_time"
+        android:text="Select Reminder Time"
+        android:layout_below="@+id/button_pay_date"
+        android:layout_alignRight="@+id/button_pay_date"
+        android:layout_alignEnd="@+id/button_pay_date"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pay_save"
+        android:text="Save"
+        android:layout_below="@+id/button_pay_time"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

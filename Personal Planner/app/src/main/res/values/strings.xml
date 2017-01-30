@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test Final project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reminder_options">ReminderOptions</string>
+    <string name="title_activity_birthday">Birthday</string>
+    <string name="title_activity_message_and__email">Message_and_Email</string>
+    <string name="title_activity_meeting">meeting</string>
+    <string name="title_activity_sendmessage">sendmessage</string>
+    <string name="title_activity_get_location">getLocation</string>
+    <string name="title_activity_payments">payments</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

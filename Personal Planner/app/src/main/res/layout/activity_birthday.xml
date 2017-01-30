@@ -1,0 +1,120 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="examples.csci567.testfinalproject.Birthday">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="examples.csci567.testfinalproject.Birthday">
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_birthday"
+            android:text="Birthday/Anniversary"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textColor="#222"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_birthday"
+            android:id="@+id/edit_name"
+            android:hint="Name"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_name"
+            android:hint="Contact"
+            android:id="@+id/edit_number"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_number"
+            android:hint="Email Address"
+            android:id="@+id/edit_email"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_notification_option"
+            android:text="Notification Options"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textColor="#222"
+            android:layout_below="@+id/edit_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Picker"
+            android:id="@+id/button_datepick"
+            android:layout_below="@+id/text_notification_option"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_datepick"
+            android:hint="MM/dd/yyyy"
+            android:id="@+id/edit_date"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time Picker"
+            android:id="@+id/button_timepick"
+            android:layout_below="@+id/edit_date"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_timepick"
+            android:hint="hh:mm"
+            android:id="@+id/edit_time"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button_save"
+            android:layout_below="@+id/edit_time"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
